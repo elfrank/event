@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="35"
+   name=""
+   committed-date="2009-11-05T10:14:11.228446Z"
+   url="http://svn2.xp-dev.com/svn/nurvzy-paypal-ipn/views/helpers"
+   last-author="nurvzy"
+   kind="dir"
+   uuid="14e4938c-536e-0410-8235-574dcbe039ec"
+   revision="41"/>
+<entry
+   committed-rev="35"
+   name="paypal.php"
+   text-time="2009-11-05T10:14:16.000000Z"
+   committed-date="2009-11-05T10:14:11.228446Z"
+   checksum="5330b3a0d31c171257ccdf01ec58a611"
+   last-author="nurvzy"
+   kind="file"
+   prop-time="2009-11-05T10:14:16.000000Z"/>
+</wc-entries>

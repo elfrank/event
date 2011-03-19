@@ -1,0 +1,20 @@
+<div class="packages form">
+
+<?php
+	echo $form->create('Package');
+	echo $form->inputs(array('legend' => __('Edit Package', true), 'name', 'description', 'price', 'qty'));
+	echo $form->end('Submit');
+?>
+
+</div>
+
+<div class="actions">
+     <ul>
+	<li>
+		<?php echo $html->link(__('Delete', true), array('action' => 'admin_delete', $form->value('Package.id')), null, sprintf(__('Are you sure you want to delete # %s?', true), $form->value('Package.id'))); ?>
+	</li>
+	<li>
+		<?php echo $html->link(__('List Packages', true), array('action' => 'admin_index'));?>
+	</li>
+     </ul>
+</div>

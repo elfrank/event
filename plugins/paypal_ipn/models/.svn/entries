@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="41"
+   name=""
+   committed-date="2009-11-06T06:57:16.000248Z"
+   url="http://svn2.xp-dev.com/svn/nurvzy-paypal-ipn/models"
+   last-author="nurvzy"
+   kind="dir"
+   uuid="14e4938c-536e-0410-8235-574dcbe039ec"
+   revision="41"/>
+<entry
+   committed-rev="41"
+   name="instant_payment_notification.php"
+   text-time="2009-11-06T06:58:26.000000Z"
+   committed-date="2009-11-06T06:57:16.000248Z"
+   checksum="39b62154d1d2fdbdec763f6a44605c08"
+   last-author="nurvzy"
+   kind="file"
+   prop-time="2009-11-06T06:58:26.000000Z"/>
+<entry
+   committed-rev="36"
+   name="paypal_item.php"
+   text-time="2009-11-06T06:48:38.000000Z"
+   committed-date="2009-11-06T06:06:38.491992Z"
+   checksum="20f2c4a9ddb5db3f4ad0c14ed02a2632"
+   last-author="nurvzy"
+   kind="file"
+   prop-time="2009-11-06T06:48:38.000000Z"/>
+<entry
+   name="datasources"
+   kind="dir"/>
+</wc-entries>

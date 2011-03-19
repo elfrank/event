@@ -1,0 +1,78 @@
+	<div id="event_logo">
+		LOGO
+	</div>
+	<div id="event_desc">
+		<h2><?php e($event['Event']['short_name']);?></h2>
+		<br />
+	
+		<p class="date_from">
+			from <?PHP e($event['Event']['start_date']."</p>  <p class='date_to'> to ".$event['Event']['end_date']);?></p>
+		<h4><?php e($event['Event']['slogan']);?></h4>
+		<p><?php e($event['Event']['description']); ?></p>
+	</div>
+	<div id="event_timeline">
+		<h3>TIME LINE</h3>
+		<?php
+			foreach($schedules as $date => $activity){
+				e("<h4>".$date."</h4>");
+				$act = 1;
+				$max_act = 3;
+				e("<ul>");
+				foreach($activity as $a){
+					if($act<=$max_act){
+						e("<li>".$a['short_name']."</li>");
+						$act++;
+					}
+					else{
+						e("<li>".$html->link('mas..',array('controller'=>'schedules','action'=>'index'))."</li>");										break;
+					}
+				}
+				e("</ul>");
+			}
+		?>
+		
+	</div>
+	<div id="event_signup">
+		<p>Sign up!</p><p> for one of our </p><p class="packages"><?php e(count($event['Package']));?> Packages!</p>
+		<?php e($html->link(__('Sign up!', true), array('controller'=> 'signups', 'action'=>'index')));?>
+	</div>
+<!--<div id="activities">
+	<h3>Activities</h3>
+<?php
+	$i=1;
+	$max_activities=5;
+	e("<ul>");
+	foreach($event['Activity'] as $activity){
+		if($i<=$max_activities){
+			e("<li>".$activity['short_name']."</li>");
+			$i++;
+		}
+		else{
+			e("<li>"."mas..."."</li>");
+			break;
+		}
+	}
+?>
+</div>
+<div id="activities">
+	<h3>Packages</h3>
+<?php
+	$i=1;
+	$max_packages=5;
+	e("<ul>");
+	foreach($event['Package'] as $package){
+		if($i<=$max_packages){
+			e("<li>".$package['name']."</li>");
+			$i++;
+		}
+		else{
+			e("<li>"."mas..."."</li>");
+			break;
+		}
+	}
+?>
+</div>
+
+<?php
+//pr($event);
+?>-->

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="41"
+   name=""
+   committed-date="2009-11-06T06:57:16.000248Z"
+   url="http://svn2.xp-dev.com/svn/nurvzy-paypal-ipn"
+   last-author="nurvzy"
+   kind="dir"
+   uuid="14e4938c-536e-0410-8235-574dcbe039ec"
+   revision="41"/>
+<entry
+   committed-rev="1"
+   name="paypal_ipn_app_model.php"
+   text-time="2009-09-21T23:08:50.000000Z"
+   committed-date="2009-07-10T05:51:29.337067Z"
+   checksum="558483f9a93c5e887a7d778b4d3fe05a"
+   last-author="nurvzy"
+   kind="file"
+   prop-time="2009-09-21T23:08:50.000000Z"/>
+<entry
+   name="models"
+   kind="dir"/>
+<entry
+   name="config"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="paypal_ipn_app_controller.php"
+   text-time="2009-09-21T23:08:50.000000Z"
+   committed-date="2009-07-10T05:51:29.337067Z"
+   checksum="f27b982f5d98e6550b5e0ee855067951"
+   last-author="nurvzy"
+   kind="file"
+   prop-time="2009-09-21T23:08:50.000000Z"/>
+<entry
+   name="controllers"
+   kind="dir"/>
+<entry
+   committed-rev="42"
+   name="paypal_ipn.sql"
+   text-time="2009-11-19T20:28:40.000000Z"
+   committed-date="2009-11-19T20:31:42.386855Z"
+   checksum="0cd71edb7783b797ca198fc78576c365"
+   last-author="nurvzy"
+   kind="file"
+   prop-time="2009-11-06T06:48:38.000000Z"
+   revision="42"/>
+<entry
+   committed-rev="42"
+   name="README.txt"
+   text-time="2009-11-19T20:31:04.000000Z"
+   committed-date="2009-11-19T20:31:42.386855Z"
+   checksum="9bc7e5e122739793f2846fc86931efa7"
+   last-author="nurvzy"
+   kind="file"
+   prop-time="2009-11-06T06:48:38.000000Z"
+   revision="42"/>
+<entry
+   name="views"
+   kind="dir"/>
+</wc-entries>

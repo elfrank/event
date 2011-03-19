@@ -1,0 +1,32 @@
+<h2>Signups</h2>
+
+<br />
+
+<table>
+	<tr>
+		<th>#</th>
+		<th>Package</th>
+		<th>Signups/Slots</th>
+		<th>Actions</th>
+	</tr>
+<?php
+
+$count = 0;
+
+foreach($packages as $package)
+{
+	$count++;
+?>
+	<tr>
+		<td><?php echo($count); ?></td>
+		<td><?php echo($package['Package']['name']); ?></td>
+		<td><?php echo($numberOfSignups[$package['Package']['id']]);  ?>/<?php echo($package['Package']['qty']); ?></td>
+		<td><?php echo($html->link('View', array('controller' => 'Signups', 'action' => 'view', $package['Package']['id']))); ?></td>
+	</tr>
+<?php
+
+}
+
+?>
+
+</table>

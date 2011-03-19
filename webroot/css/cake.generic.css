@@ -1,0 +1,879 @@
+/* SVN FILE: $Id: cake.generic.css 6311 2008-01-02 06:33:52Z phpnut $ */
+/**
+ *
+ * PHP versions 4 and 5
+ *
+ * CakePHP(tm) :  Rapid Development Framework <http://www.cakephp.org/>
+ * Copyright 2005-2008, Cake Software Foundation, Inc.
+ *								1785 E. Sahara Avenue, Suite 490-204
+ *								Las Vegas, Nevada 89104
+ *
+ * Licensed under The MIT License
+ * Redistributions of files must retain the above copyright notice.
+ *
+ * @filesource
+ * @copyright		Copyright 2005-2008, Cake Software Foundation, Inc.
+ * @link				http://www.cakefoundation.org/projects/info/cakephp CakePHP(tm) Project
+ * @package			cake
+ * @subpackage		cake.app.webroot.css
+ * @since			CakePHP(tm)
+ * @version			$Revision: 6311 $
+ * @modifiedby		$LastChangedBy: phpnut $
+ * @lastmodified	$Date: 2008-01-02 00:33:52 -0600 (Wed, 02 Jan 2008) $
+ * @license			http://www.opensource.org/licenses/mit-license.php The MIT License
+ */
+
+* {
+margin:0;
+padding:0;
+}
+p.center { text-align: center;}
+p.right{ text-align: right;}
+/* General Style Info */
+body {
+/*	background-color: #003d4c;*/
+/*	background-color:#8A0808;*/
+    background-color:rgb(0, 37, 56);
+
+	color: #fff;
+	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
+
+	font-size:90%;
+	margin: 0;
+}
+a {
+	background-color: inherit;
+	color: #003d4c;
+	text-decoration: underline;
+	font-weight: bold;
+}
+a:hover {
+	background-color: inherit;
+	color: #003d4c;
+	text-decoration:none;
+}
+a img {
+	border:none;
+}
+h1, h2, h3, h4 {
+	background-color: inherit;
+	font-weight: normal;
+}
+h1 {
+	color: #003d4c;
+	font-size: 100%;
+	margin: 0.1em 0;
+}
+h2 {
+	color: #e32;
+	font-family:'Gill Sans','lucida grande',helvetica, arial, sans-serif;
+	font-size: 190%;
+	margin: 0.3em 0;
+	padding-top: 0.8em;
+}
+h3 {
+	color: #993;
+	font-family:'Gill Sans','lucida grande',helvetica, arial, sans-serif;
+	font-size: 165%;
+	padding-top: 1.5em;
+}
+h4 {
+	color: #993;
+	font-weight: normal;
+	padding-top: 0.5em;
+}
+ul, li {
+	margin: 0 12px;
+}
+
+/* Layout */
+#container {
+	text-align: left;
+	padding-left:0px;
+	width: 960px;
+	margin: auto;
+}
+
+
+#header{
+	/*padding: 10px 20px;*/
+	width:100%;
+	
+	
+}
+#header h1 {
+	color: #ffffff;
+	padding: 0px 30px;
+	margin: 0;
+}
+#header h1 a {
+	color: #ffffff;
+	background: #003d4c;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 5px;
+}
+#header h1 a:hover {
+	color: #ffffff;
+	background: #003d4c;
+	text-decoration: underline;
+}
+#header ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+#header ul li{
+	display:inline;
+}
+
+#header ul li a{
+	color: #ffffff;
+	/*display:block;*/
+	padding-left:2%;
+	padding-right:2%;
+	padding-top:1%;
+	text-decoration: none;
+
+	/*background-color:#ACFA58;*/
+	background: rgb(16, 126, 200) url('../img/menu_item.png') repeat-x;
+}
+#header ul li a:hover{
+/*	background-color:#5FB404;*/
+	background-color:#6E6E6E;
+	text-decoration: underline;
+	color:#FFFFFF;
+
+}
+#header_title{
+	height:100px;
+	margin-left: 10px;
+}
+#header_title h1{
+	color:#FFFFFF;
+	font-size:50px;
+}
+
+#content{
+	background-color: #fff;
+	clear: both;
+	color: #333;
+	padding: 10px 20px 40px 20px;
+	overflow: auto;;
+}
+#footer {
+	clear: both;
+	padding: 6px 10px;
+	text-align: left;
+	background-color: #fff;
+	color: #000;
+	border-top: solid rgb(16, 126, 200) 7px;
+}
+
+/* Tables */
+
+table {
+	/*background-color: #fff;*/
+	border-top: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	clear: both;
+	color: #333;
+	margin-bottom: 10px;
+	width: 100%;
+}
+th {
+	background-color: #f2f2f2;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+	text-align: center;
+}
+th a {
+	display: block;
+	padding: 2px 4px;
+	text-decoration: none;
+}
+th a:hover {
+	background-color: #ccc;
+	color: #333;
+	text-decoration: none;
+}
+table tr td {
+	background: #fff;
+	border-right: 1px solid #ccc;
+	padding: 4px;
+	text-align: center;
+	vertical-align: top;
+    border-bottom: 1px solid #CCC;   
+}
+table tr.altrow td {
+	background: #f4f4f4;
+}
+td.actions {
+	text-align: center;
+	white-space: nowrap;
+}
+td.actions a {
+	display: inline;
+	margin: 0px 3px;
+}
+.cake-sql-log table {
+	background: #f4f4f4;
+}
+.cake-sql-log td {
+	padding: 4px 8px;
+	text-align: left;
+}
+
+/* Paging */
+div.paging {
+	color: #ccc;
+	margin-bottom: 2em;
+}
+div.paging div.disabled {
+	color: #ddd;
+	display: inline;
+}
+div.paging span {
+}
+div.paging span.current {
+	color: #000;
+}
+div.paging span a {
+}
+
+/* Scaffold View */
+dl {
+	line-height: 2em;
+	margin: 0em 0em;
+	width: 60%;
+}
+dl.altrow {
+	background: #f4f4f4;
+}
+dt {
+	font-weight: bold;
+	padding-left: 4px;
+	vertical-align: top;
+}
+dd {
+	margin-left: 10em;
+	margin-top: -2em;
+	vertical-align: top;
+}
+
+/* Forms */
+form {
+	clear: both;
+	margin-right: 20px;
+	padding: 0;
+	width: 80%;
+}
+fieldset {
+	border: 1px solid #ccc;
+	margin-top: 30px;
+	padding: 16px 20px;
+}
+fieldset legend {
+	color: #e32;
+	font-size: 160%;
+	font-weight: bold;
+}
+fieldset fieldset {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding: 16px 0;
+}
+fieldset fieldset legend {
+	font-size: 120%;
+	font-weight: normal;
+	margin-left: 20px;
+}
+fieldset fieldset div {
+	clear: left;
+	margin: 0 20px;
+}
+form div {
+	clear: both;
+	margin-bottom: 1em;
+	padding: .5em;
+	vertical-align: text-top;
+}
+form div.input {
+	color: #444;
+}
+form div.required {
+	color: #333;
+	font-weight: bold;
+}
+form div.submit {
+	border: 0;
+	clear: both;
+	margin-top: 10px;
+	margin-left: 140px;
+}
+label {
+	display: block;
+	font-size: 110%;
+	padding-right: 20px;
+}
+input, textarea {
+	clear: both;
+	display: block;
+	font-size: 140%;
+	font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
+	padding: 2px;
+	width: 100%;
+}
+select {
+	clear: both;
+	font-size: 120%;
+	vertical-align: text-bottom;
+}
+select[multiple=multiple] {
+	width: 100%;
+}
+option {
+	font-size: 120%;
+	padding: 0 3px;
+}
+input[type=checkbox] {
+	clear: left;
+	float: left;
+	margin: 0px 6px 7px 2px;
+	width: auto;
+}
+input[type=submit] {
+	display: inline;
+	font-size: 110%;
+	padding: 2px 5px;
+	width: auto;
+	vertical-align: bottom;
+}
+
+/* Notices and Errors */
+div.message {
+	clear: both;
+	color: #900;
+	font-size: 140%;
+	font-weight: bold;
+	margin: 1em 0;
+}
+div.error-message {
+	clear: both;
+	color: #900;
+	font-weight: bold;
+}
+p.error {
+	background-color: #e32;
+	color: #fff;
+	font-family: Courier, monospace;
+	font-size: 120%;
+	line-height: 140%;
+	padding: 0.8em;
+	margin: 1em 0;
+}
+p.error em {
+	color: #000;
+	font-weight: normal;
+	line-height: 140%;
+}
+.notice {
+	background-color: #ffcc00;
+	color: #000;
+	display: block;
+	font-family: Courier, monospace;
+	font-size: 120%;
+	line-height: 140%;
+	padding: 0.8em;
+	margin: 1em 0;
+}
+.success {
+	background-color: green;
+	color: #FFF;
+}
+
+/*  Actions  */
+div.actions ul {
+	margin: 0px 0;
+	padding: 0;
+}
+div.actions li {
+	display: inline;
+	list-style-type: none;
+	line-height: 2em;
+	margin: 0 2em 0 0;
+	white-space: nowrap;
+}
+div.actions ul li a {
+	color: #003d4c;
+	text-decoration: none;
+}
+div.actions ul li a:hover {
+	color: #333;
+	text-decoration: underline;
+}
+
+/* Related */
+div.related {
+	clear: both;
+	display: block;
+}
+
+/* Debugging */
+pre {
+	color: #000;
+	background: #f0f0f0;
+	padding: 1em;
+}
+pre.cake-debug {
+	background: #ffcc00;
+	font-size: 120%;
+	line-height: 140%;
+	margin-top: 1em;
+	overflow: auto;
+	position: relative;
+}
+div.cake-stack-trace {
+	background: #fff;
+	border: 4px dotted #ffcc00;
+	color: #333;
+	margin: 0px;
+	padding: 6px;
+	font-size: 120%;
+	line-height: 140%;
+	overflow: auto;
+	position: relative;
+}
+div.cake-code-dump pre {
+	position: relative;
+	overflow: auto;
+}
+div.cake-stack-trace pre, div.cake-code-dump pre {
+	color: #000000;
+	background-color: #F0F0F0;
+	margin: 0px;
+	padding: 1em;
+	overflow: auto;
+}
+div.cake-code-dump pre, div.cake-code-dump pre code {
+	clear: both;
+	font-size: 12px;
+	line-height: 15px;
+	margin: 4px 2px;
+	padding: 4px;
+	overflow: auto;
+}
+div.cake-code-dump span.code-highlight {
+	background-color: #FFFF00;
+	padding: 4px;
+}
+
+div.accept {
+    background: url(../img/icons/accept.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    margin: auto;
+}
+
+div.cross {
+    background: url(../img/icons/cross.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    margin: auto;
+}
+
+div.delete {
+    background: url(../img/icons/delete.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    background-position: center top;
+}	
+
+.dashboard_table{
+    border: 2px solid #ddd;
+    text-align:left;
+    background-color: #f9f9f9;
+}
+
+.dashboard_table td{
+    border: 2px solid #ddd;
+    text-align:left;
+    width:200px;
+    background-color: #f9f9f9
+}
+
+div#authake .dash_area_left {
+    float: left;
+    width: 33%;
+}
+
+div#authake .dash_area_right {
+    float: left;
+    width: 33%;
+}
+
+div#authake .dash_inner_area {
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    margin: 5px;
+    padding: 10px;
+}
+
+div#authake span.dash_title {
+    font-size: 1.1em;
+    font-weight: bold;
+    display: block;
+}
+
+div#authake span.dash_description {
+    font-size: small;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+div#authake li.dash_bullet {
+    display: block;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+div#authake span.dash_menu_item {
+    margin-left: 15px;
+}
+
+.menu {
+    background-color: rgb(15, 121, 192);
+    height: 20px;
+}
+
+.login_info {
+    font-size: small;
+    margin-right: 15px;
+    float: right;
+    padding-top: 2px;
+    color: #ffffff;
+}
+
+.login_info a {
+    color: #ffffff;
+}
+
+div#authake .stat_area_complete {
+    float: left;
+    width: 100%;
+}
+
+div#authake .stat_area_left {
+    float: left;
+    width: 50%;
+}
+
+div#authake .stat_area_right {
+    float: left;
+    width: 50%;
+}
+
+div#authake .stat_inner_area {
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    margin: 5px;
+    padding: 10px;
+}
+
+div#authake .stat_data {
+    float: right;
+    padding-left: 10px;
+    text-align: right;
+}
+
+div#authake .stat_data dt {
+    font-weight: normal;
+}
+
+div#authake .stat_data dd {
+    font-weight: bold;
+}
+
+div#authake .chart {
+}
+
+div#authake .profile_area {
+    float: left;
+    width: 33%
+}
+
+div#authake .profile_inner_area {
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    margin: 5px;
+    padding: 10px;
+}
+
+div#authake span.profile_area_title {
+    font-size: 1.1em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+div#authake table#profile_area_table {
+    border-width: 0px;
+    border-color: #f9f9f9;
+}
+
+#profile_area_table td{
+    background-color: #f9f9f9;
+    border-color: #f9f9f9;
+    text-align: left;
+}
+
+#profile_area_table .profile_area_concept {
+    text-align: right;
+    padding-right: 5px;
+    color: #003d4c;
+}
+
+.profile_area_links {
+    text-align: right;
+}
+
+div#authake .profile_area_links a {
+    text-decoration: underline;
+}
+
+.sales_closed {
+    color: red;
+}
+
+.signup_radio {
+    margin: 0;
+}
+
+#signup_button {
+    float: right;
+    clear: none;
+}
+
+#signup_discount_code {
+    float: right;
+    clear: none;
+}
+
+div#authake .signup_area {
+    float: left;
+    width: 50%
+}
+
+div#authake .signup_inner_area {
+    background-color: #f9f9f9;
+    border: 2px solid #ddd;
+    margin: 5px;
+    padding: 10px;
+}
+
+div#authake span.signup_area_title {
+    font-size: 1.1em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+div#authake .paypal_button .submit input {
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: right;
+    margin-left: 0;
+}
+
+div#authake .package_availability {
+    padding-top: 10px;
+}
+
+div#authake .signup_button .submit {
+    width: auto;
+}
+
+div#authake .signup_button .submit input {
+    margin-left: 0;
+}
+
+div#authake .paypal_logo {
+    vertical-align: middle;
+}
+
+div#authake .pay {
+    padding-top: 5px;
+}
+
+div#authake .signup_area_links a {
+    text-decoration: underline;
+}
+
+.signup_area_links {
+     text-align: right;
+}
+
+.separator {
+    height: 9px;
+}
+
+.tmp {
+    float: right;
+}
+
+/********** PARA PAGINA PRINCIPAL ************/
+div#authake #event_logo{
+	padding:30px;
+	width:340px;
+	height:340px;
+	border-style:solid;
+	float:left;
+}
+div#authake #event_desc{
+	padding:30px;
+	border: 2px solid #ddd;
+	background-color: #f9f9f9;
+}
+
+div#authake div#event_signup h2{
+	font-size:50px;
+}
+div#authake div#event_signup p.date_from{
+	font-size:30px;
+}
+div#authake div#event_signup p.date_to{
+	font-size:30px;
+//	padding-left:100px;
+	float: right;
+}
+div#authake #event_timeline{
+	padding:30px;
+
+//	float:left;
+	margin-left:20px;
+}
+div#authake #event_timeline h3{
+	border-bottom-style:solid;
+	margin-top: -60px;
+}
+div#authake #event_timeline h4{
+	background-color:#c0dcc0;
+	padding:5px;
+}
+div#authake #event_signup{
+	border: 2px solid #ddd;
+	margin: 5px;
+	padding:20px;
+	background-color: #f9f9f9;
+}
+
+.front_container {
+	width: 50%;
+	float: left;
+}
+
+/* Tweet carrousel */
+
+#tweets {
+	height: 280px;
+	overflow-y: hidden;
+}
+
+#tweets .tweete img{
+	float: left;
+	margin: 4px;
+}
+
+#tweets .tweete span{
+	float: left;
+}
+
+#tweets .tweete span , #tweets .tweete span a {
+	font-size: 12px !important;
+	float: none !important;
+}
+
+.tweet_holder h2 {
+	font-size: 32px !important;
+}
+
+.clearer {
+	clear: both;
+}
+
+/*  fin Tweet carrousel */
+
+.main_left {
+	width: 67%;
+	float: left;
+}
+
+
+.main_right {
+	width: 33%;
+	float: left;
+}
+
+div#authake #event_signup span.prev_packages{
+	font-size:40px;
+}
+div#authake #event_signup span.packages{
+    text-align: right;
+    font-size:52px;
+}
+div#authake #event_signup a{
+	font-size:25px;
+	float:right;
+}
+
+div#authake .principal_area {
+    float: left;
+    width: 33%;
+}
+div#authake p#event_description{
+    fornt-size: small;
+}
+.principal_separator
+{
+    clear: both;x
+}
+
+.more {
+    text-align: right;
+    list-style-type: none;
+}
+
+#tec_logo {
+	text-align: right;
+}
+
+
+#calendar_container {
+	border: 2px #ddd solid !important;
+	width: 900;
+	margin: 10px !important;
+	overflow-x: hidden;
+}
+
+
+.calendar_overload {
+	width: 4000px;
+}
+.calendar_day {
+	float: left;
+}
+
+
+.calendar_day h1 {
+	font-size: 16px;
+	padding-left: 4px;
+	font-weight: bold;
+}
+
+#siguiente , #anterior {
+	cursor: pointer;
+}

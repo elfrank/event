@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="37"
+   name=""
+   committed-date="2009-11-06T06:11:46.779377Z"
+   url="http://svn2.xp-dev.com/svn/nurvzy-paypal-ipn/config"
+   last-author="nurvzy"
+   kind="dir"
+   uuid="14e4938c-536e-0410-8235-574dcbe039ec"
+   revision="41"/>
+<entry
+   name="sql"
+   kind="dir"/>
+<entry
+   committed-rev="32"
+   name="paypal_ipn_config.php"
+   text-time="2009-10-31T23:36:32.000000Z"
+   committed-date="2009-10-31T22:29:39.923384Z"
+   checksum="0cfb33555a0d7d375b6e89ce3ed7af95"
+   last-author="nurvzy"
+   kind="file"
+   prop-time="2009-10-31T23:36:32.000000Z"/>
+</wc-entries>

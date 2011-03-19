@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="38"
+   name=""
+   committed-date="2009-11-06T06:39:08.081510Z"
+   url="http://svn2.xp-dev.com/svn/nurvzy-paypal-ipn/views"
+   last-author="nurvzy"
+   kind="dir"
+   uuid="14e4938c-536e-0410-8235-574dcbe039ec"
+   revision="41"/>
+<entry
+   name="helpers"
+   kind="dir"/>
+<entry
+   name="instant_payment_notifications"
+   kind="dir"/>
+<entry
+   name="paypal_items"
+   kind="dir"/>
+</wc-entries>

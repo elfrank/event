@@ -1,0 +1,1 @@
+<?php e("<h2>Welcome to E-vent</h2>"); ?>
